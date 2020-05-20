@@ -1,6 +1,6 @@
 # LGEA_Cell_Signature
 
-R implementation of statistical method to predict the LGEA single cell signature genes.
+R implementation of our statistical method to predict the LGEA single cell signature genes.
 
 Developed by Shuyang Zhao.
 
