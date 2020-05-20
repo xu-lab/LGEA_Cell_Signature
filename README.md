@@ -1,7 +1,7 @@
 # LGEA_Cell_Signature
 
-R implementation of elastic net based logistic regression model for predicting the LGEA single cell signature genes
+R implementation of statistical method to predict the LGEA single cell signature genes
 
-We uses elastic net regularization to fit a logistic regression model to predict each gene's probability being a cell type signature, integrating multiple signature metrics including p-values, effect size, frequency and sensitivity.  A ranking system was then designed to define the signature genes for each cell type.
+Our method is comprised of a logistic regression model and a ranking system. The logistic regression model uses elastic net regularization to predict each gene's probability being a cell type signature, based on the integration of multiple signature metrics including cell specific p-values of differential expression tests, gene expression effect size, frequency and sensitivity. Then the ranking system was used to define the signature genes for each cell type.
 
-Developed by Shuyang Zhao.
+The method is developed by Shuyang Zhao
