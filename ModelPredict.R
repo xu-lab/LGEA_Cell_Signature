@@ -1,3 +1,6 @@
+# This is the script for predicting and ranking 
+# Author: Shuyang Zhao (shuyang.zhao@cchmc.org)
+
 source("https://raw.githubusercontent.com/xu-lab/SINCERA/umi/R/functions.R")
 library(plyr)
 library(dplyr)
@@ -7,7 +10,7 @@ library(openxlsx)
 library(glmnet)
 library(caret)
 library(ROCR)
-############################ MODEL ######################################
+############################ Loading prepared data package ######################################
 celltype <- "AT1"
 #load pre-stored traiing and testing set
 load(file=paste("GS.UMI/",celltype,"/",celltype,".model.data.package.Rda",sep=""))
